@@ -1,0 +1,23 @@
+{
+  "name": "oasis-box",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "./node_modules/.bin/oasis-compile clean"
+  },
+  "devDependencies": {
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0",
+    "oasis-compiler": "^1.0.0"
+  },
+  "keywords": [
+    "web3",
+    "web3c",
+    "ekiden"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oasislabs/oasis-box.git"
+  },
+  "dependencies": {
+    "web3c": "^1.0.0"
+  }
+}
