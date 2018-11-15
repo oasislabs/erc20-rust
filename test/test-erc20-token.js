@@ -3,8 +3,6 @@ const Web3 = require("web3");
 const web3 = new Web3(TokenContract.web3.currentProvider);
 
 contract("TokenContract", (accounts) => {
-
-  const args = JSON.parse("[42]");
   const instance = new web3.eth.Contract(TokenContract.abi, TokenContract.address, {
     from: accounts[0]
   });
