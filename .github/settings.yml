@@ -66,6 +66,8 @@ labels:
 teams:
   - name: dev
     permission: push
+  - name: admin
+    permission: push
 
 branches:
   - name: master
