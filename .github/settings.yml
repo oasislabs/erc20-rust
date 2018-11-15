@@ -67,7 +67,7 @@ teams:
   - name: dev
     permission: push
   - name: admin
-    permission: push
+    permission: admin
 
 branches:
   - name: master
