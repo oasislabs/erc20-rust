@@ -1,6 +1,6 @@
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
-  private: true
+  private: false
   default_branch: master
   has_issues: true
   has_projects: false
@@ -74,7 +74,7 @@ branches:
       required_pull_request_reviews:
         required_approving_review_count: 1
         # Dismiss approved reviews automatically when a new commit is pushed.
-        dismiss_stale_reviews: true
+        dismiss_stale_reviews: false
         # Blocks merge until code owners have reviewed.
         require_code_owner_reviews: true
         # Specify which users and teams can dismiss pull request reviews. Pass an empty dismissal_restrictions object to disable.
