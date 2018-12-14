@@ -1,23 +1,18 @@
 {
-  "name": "oasis-box",
+  "name": "erc20-token",
   "version": "1.0.0",
+  "description": "ERC20 token contract example",
   "scripts": {
     "clean": "./node_modules/.bin/oasis-compile clean"
   },
+  "author": "Oasis Labs",
+  "license": "MIT",
   "devDependencies": {
-    "truffle-hdwallet-provider": "^1.0.0-web3one.0",
-    "oasis-compiler": "^1.0.0"
-  },
-  "keywords": [
-    "web3",
-    "web3c",
-    "ekiden"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oasislabs/oasis-box.git"
+    "oasis-compiler": "^1.0.0",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0"
   },
   "dependencies": {
+    "web3-provider-engine": "^14.1.0",
     "web3c": "^1.0.0"
   }
 }
