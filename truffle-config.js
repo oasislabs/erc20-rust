@@ -1,7 +1,7 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
 // add your Oasis Devnet mnemonic here. Be sure to keep it secret!
-const MNEMONIC = '';
+const MNEMONIC = 'bottom coffee fan photo salon february border olive fantasy reward decide gloom';
 
 // mnemonic for Contract Kit local blockchain
 const CONTRACT_KIT_MNEMONIC = 'range drive remove bleak mule satisfy mandate east lion minimum unfold ready';

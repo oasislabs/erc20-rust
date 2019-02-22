@@ -8,11 +8,11 @@
   "author": "Oasis Labs",
   "license": "MIT",
   "devDependencies": {
-    "oasis-compiler": "^1.0.0",
+    "oasis-compile": "^2.0.0",
     "truffle-hdwallet-provider": "^1.0.0-web3one.0"
   },
   "dependencies": {
     "web3-provider-engine": "^14.1.0",
-    "web3c": "^1.0.0"
+    "web3c": "^2.0.0"
   }
 }
