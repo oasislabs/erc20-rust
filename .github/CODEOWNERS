@@ -1,2 +1,2 @@
-# .github/ is restricted
-.github/ @ryscheng @oasislabs/admin
+# The codeowners are the only ones who can edit the .github directory
+.github/ @oasislabs/admin @ryscheng 
